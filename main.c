@@ -5,7 +5,8 @@
 int main() {
 
     printf("Hello, ma nigga!\n" );
-   SDL_Window *pwindow SDL_CreateWindow("Image viewer",SLD_WINDOWSPOS_CENTERED ,SLD_WINDOWSPOS_CENTERED, 900,
+   SDL_Window *pwindow= SDL_CreateWindow("Image viewer" ,SDL_WINDOWPOS_CENTERED ,SDL_WINDOWPOS_CENTERED, 900,
    600, 0);
+   SDL_Delay(3000);
     
 }
